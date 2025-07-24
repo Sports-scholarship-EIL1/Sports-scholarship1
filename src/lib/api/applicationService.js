@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // API URL with port 7777 as specified in the backend config.js
-const API_URL = [' https://sports-scholarshipeilinternship-production-076f.up.railway.app/api/applications','http://localhost:7777/api/applications'];
+const API_URL = ['http://localhost:7777/api/applications'];
 
 // Create axios instance with base config
 const api = axios.create({
