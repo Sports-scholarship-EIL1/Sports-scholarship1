@@ -3,7 +3,8 @@
 // Try multiple possible server URLs
 const API_URLS = [
   'http://localhost:7777/api/auth',
-  'http://127.0.0.1:7777/api/auth'
+  'http://127.0.0.1:7777/api/auth',
+  ' https://sports-scholarshipeilinternship-production-076f.up.railway.app/api/auth'
 ];
 
 // Function to test which server is responding
